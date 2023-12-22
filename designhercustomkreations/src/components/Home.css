@@ -1,0 +1,19 @@
+
+
+.mainHeader{
+    width: 100vw;
+    height: 18vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.mainLogo{
+    margin-top: 3vh;
+    margin-left: 4vw;
+    width: 140px;
+    height: 100px;
+    background-image: url('Designher.jpg');
+    background-position: center;
+    background-size: cover;
+}
