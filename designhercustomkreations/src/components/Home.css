@@ -9,11 +9,19 @@
 }
 
 .mainLogo{
-    margin-top: 3vh;
+    margin-top: 1vh;
     margin-left: 4vw;
-    width: 140px;
-    height: 100px;
+    width: 160px;
+    height: 140px;
     background-image: url('Designher.jpg');
     background-position: center;
     background-size: cover;
+    border: solid 2px green;
+}
+
+.headerRightSide{
+    margin-top: 1vh;
+    border: solid 2px green;
+    width: 160px;
+    height: 140px;
 }

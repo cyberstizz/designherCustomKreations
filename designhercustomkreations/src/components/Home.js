@@ -8,6 +8,7 @@ function Home() {
 <header className="mainHeader">
 
 <div className='mainLogo' alt="designHerLogo" src="../public/Designher.jpg" > </div>
+<div className='headerRightSide'></div>
 </header>
     
         </React.Fragment>
