@@ -31,6 +31,10 @@ function Home() {
   Your browser does not support the video tag.projects/designherCustomKreations/designhercustomkreations/public/VID_158480824_122841_103.mp4
 </video>
 
+<section className='categoriesSection'>
+<h1 className='categoriesHeader'>Categories</h1>
+</section>
+
     
         </React.Fragment>
   );
