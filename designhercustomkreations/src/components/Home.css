@@ -1,4 +1,8 @@
-
+*{
+    font-family: 'Rubik Doodle Triangles', sans-serif;
+    font-size: 15px;
+}
+    
 
 .mainHeader{
     width: 100vw;
@@ -16,12 +20,46 @@
     background-image: url('Designher.jpg');
     background-position: center;
     background-size: cover;
-    border: solid 2px green;
 }
 
 .headerRightSide{
     margin-top: 1vh;
-    border: solid 2px green;
-    width: 160px;
+    width: 220px;
     height: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchBar{
+    height: 45px;
+    width: 14rem;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    margin-left: 4vw;
+    margin-top: 1vh;
+}
+
+.navigationBar{
+    border: solid 2px green;
+    height: 20px;
+    width: 160px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: #6E6868;
+}
+
+.navigationBarTwo{
+    border: solid 2px green;
+    height: 20px;
+    width: 160px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    color: silver;
+}
+
+li{
+    margin-left: 3vw;
 }
