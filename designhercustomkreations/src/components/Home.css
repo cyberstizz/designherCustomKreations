@@ -15,7 +15,7 @@
 }
 
 .mainLogo{
-    margin-top: 1vh;
+    margin-top: .2vh;
     width: 50%;
     margin-left: .2vw;
     height: auto;
@@ -96,6 +96,7 @@
     margin: 0;
     border: 0;
     padding: 0;
+    border: solid 2px black;
 }
 
 .categoriesSection{
@@ -113,7 +114,7 @@
     color: #958e8e;
     font-size: 40px;
     letter-spacing: 1px;
-    margin-left: 20%;
+    margin-left: 25%;
 }
 
 .imageCard{
@@ -155,16 +156,18 @@ li{
 }
 
 .aboutSection{
-    height:250vh;
+    height:440vh;
     width: 100vw;
     background: linear-gradient(to right, #000000 0%, #121212 25%, #1f1e1e 50%, #121212 75%, #000000 100%);
     text-align: justify; 
+    overflow: hidden;
 }
 
 .videosSection{
     background: linear-gradient(to right, #FF0000, #CC0000, #990000, #660000);
     height: 120vh;
     width: 100vw;
+    text-align: justify; 
 }
 .aboutParagraph{
     color: rgb(243, 49, 49);

@@ -60,8 +60,23 @@ This excerpt aims to capture the essence of DesignHerInc, portraying its evoluti
 </section>
 
 <section className='videosSection'>
-<h1>Videos</h1>
+<h1 className='categoriesHeader'>Videos</h1>
 
+
+<video className="homeVideo" width="95%" height="50%" loop="true" autoPlay muted>
+  <source src="/newVideoThree.mp4" type="video/mp4"/>
+  Your browser does not support the video tag
+</video>
+
+<video className="homeVideo" width="95%" height="50%" loop="true" controls>
+  <source src="/newVideoTwo.mp4" type="video/mp4"/>
+  Your browser does not support the video tag
+</video>
+
+<video className="homeVideo" width="95%" height="50%" loop="true" controls>
+  <source src="/newVideoOne.mp4" type="video/mp4"/>
+  Your browser does not support the video tag
+</video>
 
 </section>
 
