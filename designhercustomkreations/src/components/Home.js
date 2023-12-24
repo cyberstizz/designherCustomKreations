@@ -42,6 +42,30 @@ function Home() {
 </section>
 
 
+<section className='aboutSection'>
+<h1 className='categoriesHeader'>About</h1>
+<p className='aboutParagraph'>
+DesignHerInc Custom Kreations, born from the visionary mind of Dianna Beaty in 2022, embodies the fusion of creativity and fabric, springing from a humble abode in Queens, New York. What began as a fervent dream has blossomed into an artistic venture, redefining fashion and individual expression.
+
+Dianna, an artistic virtuoso, wielded her innate flair for clothing decoration, embellishing fabrics with rhinestones and intricate designs that left onlookers spellbound. Her initial showcases at college booths garnered immense fascination, swiftly transforming into a daily influx of orders.
+
+Specializing in bespoke designs for Women, children, and Men, DesignHerInc has ignited a sartorial revolution. The allure of personalized apparel has captured the city's heart, ushering in an era of distinctive style. With each stitch, DesignHerInc crafts narratives woven into fabric, resonating with individuals seeking unique sartorial statements.
+
+As our brand takes flight, painting the city in vibrant hues, DesignHerInc remains rooted in its digital abode, catering to customers nationwide. While our storefronts are in the making, our website stands as a beacon, offering nationwide delivery.
+
+With a 14-day turnaround for custom orders, we invite you to join the DesignHerInc narrative, where fashion meets artistry, and every garment tells a tale. Embrace the personalized elegance that is uniquely yours, as DesignHerInc marches toward becoming a household name."
+
+This excerpt aims to capture the essence of DesignHerInc, portraying its evolution from a dream to a burgeoning fashion entity, inviting customers to become part of its narrative while emphasizing the uniqueness and artistry embedded within each creation. Adjustments can be made to suit specific preferences or requirements.
+</p>
+</section>
+
+<section className='videosSection'>
+<h1>Videos</h1>
+
+
+</section>
+
+
     
         </React.Fragment>
   );
