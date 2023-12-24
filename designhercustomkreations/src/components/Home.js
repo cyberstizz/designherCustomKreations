@@ -11,16 +11,16 @@ function Home() {
 <form className='headerRightSide'>
     <input type='search' className='searchBar'></input>
     <div className='navigationBar'>
-      <ul className='navigationBar'>
-        <li>Jackets</li>
-        <li>Crocs</li>
+      <ul className='navUlTag'>
+        <li className='firstNavItem'>Jackets</li>
+        <li className='navItem'>Crocs</li>
       </ul>
     </div>
 
     <div className='navigationBarTwo'>
-       <ul className='navigationBar'> 
-        <li>Sneakers</li>
-        <li>Boots</li>
+       <ul className='navUlTag'> 
+        <li className='firstNavItem'>Sneakers</li>
+        <li className='navItem'>Boots</li>
       </ul>
     </div>
 </form>
@@ -33,7 +33,14 @@ function Home() {
 
 <section className='categoriesSection'>
 <h1 className='categoriesHeader'>Categories</h1>
+
+<div className='imageCard'></div>
+<div className='imageCardTwo'></div>
+<div className='imageCardThree'></div>
+
+
 </section>
+
 
     
         </React.Fragment>
