@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons';
 import crocsOne from '../crocsOne.webp';
 import crocsTwo from '../crocsTwo.webp';
-import crocsThree from '../crocsThree.mp4';
 import crocsFour from '../crocsFour.webp';
 import crocsFive from '../crocsFive.webp';
 import crocsSix from '../crocsSix.webp';
@@ -29,7 +28,6 @@ function Home() {
 
 const slideShow = [crocsOne,
    crocsTwo,
-   crocsThree,
    crocsFour, 
    crocsFive, 
    crocsSix, 
@@ -48,13 +46,15 @@ const slideShow = [crocsOne,
   ]
 
   const iconStyle = {
-    fontSize: '120px', // Set the desired font size for the icon
+    fontSize: '360px', // Set the desired font size for the icon
     color: '#FF0000', // Set the desired color for the icon
-    height: '70px', // Set the height (adjust as needed)
-    width: '70px', // Set the width (adjust as needed)
+    height: '20%', // Set the height (adjust as needed)
+    width: '25%',
     display: 'inline-flex', // Ensure icons align properly
     alignItems: 'center', // Align content vertically
-    justifyContent: 'center', // Align content horizontally
+    justifyContent: 'center',
+    objectFit: 'cover',
+    marginLeft: '6vw'
   };
 
 
@@ -104,15 +104,15 @@ const slideShow = [crocsOne,
   <h1 className='slideShowText'>As seen on </h1>
 
   <a className='customIcon' href="https://www.facebook.com/yourPage" target="_blank" rel="noopener noreferrer" style={iconStyle}>
-        <FontAwesomeIcon icon={faFacebookSquare} /> {/* Facebook Icon */}
+        <FontAwesomeIcon icon={faFacebookSquare} style={{ fontSize: '100px' }} />
       </a>
 
       <a className='customIcon' href="https://www.instagram.com/yourAccount" target="_blank" rel="noopener noreferrer" style={iconStyle}>
-        <FontAwesomeIcon icon={faInstagram} /> {/* Instagram Icon */}
+        <FontAwesomeIcon icon={faInstagram} style={{ fontSize: '100px' }} />
       </a>
 
       <a className='customIcon' href="https://www.tiktok.com/@yourUsername" target="_blank" rel="noopener noreferrer" style={iconStyle}>
-        <FontAwesomeIcon icon={faTiktok} /> {/* TikTok Icon */}
+      <FontAwesomeIcon icon={faTiktok} style={{ fontSize: '100px' }} />
       </a>
 
 <img className='theSlideShow' src={slideShow[currentNumber]} alt="pic of crcocs"></img>
