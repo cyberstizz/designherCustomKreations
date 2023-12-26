@@ -107,11 +107,11 @@ const slideShow = [crocsOne,
         <FontAwesomeIcon icon={faFacebookSquare} style={{ fontSize: '100px' }} />
       </a>
 
-      <a className='customIcon' href="https://www.instagram.com/yourAccount" target="_blank" rel="noopener noreferrer" style={iconStyle}>
+      <a className='customIcon' href="https://www.instagram.com/designher_incllc?utm_source=qr&igshid=YjE5NDMyY2FhOQ%3D%3D&img_index=1" target="_blank" rel="noopener noreferrer" style={iconStyle}>
         <FontAwesomeIcon icon={faInstagram} style={{ fontSize: '100px' }} />
       </a>
 
-      <a className='customIcon' href="https://www.tiktok.com/@yourUsername" target="_blank" rel="noopener noreferrer" style={iconStyle}>
+      <a className='customIcon' href="https://www.tiktok.com/@designher_inc" target="_blank" rel="noopener noreferrer" style={iconStyle}>
       <FontAwesomeIcon icon={faTiktok} style={{ fontSize: '100px' }} />
       </a>
 
