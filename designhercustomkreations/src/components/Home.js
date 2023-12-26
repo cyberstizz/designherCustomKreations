@@ -1,8 +1,60 @@
 import './Home.css';
 import React from 'react';
+import crocsOne from '../crocsOne.webp';
+import crocsTwo from '../crocsTwo.webp';
+import crocsThree from '../crocsThree.mp4';
+import crocsFour from '../crocsFour.webp';
+import crocsFive from '../crocsFive.webp';
+import crocsSix from '../crocsSix.webp';
+import crocsSeven from '../crocsSeven.webp';
+import crocsEight from '../crocsEight.webp';
+import crocsNine from '../crocsNine.webp';
+import crocsTen from '../crocsTen.webp';
+import crocsEleven from '../crocsEleven.webp';
+import crocsTwelve from '../crocsTwelve.webp';
+import crocsThirteen from '../crocsThirteen.heic';
+import crocsFourteen from '../crocsFourteen.heic';
+import crocsFifteen from '../crocsFifteen.heic';
+import crocsSixteen from '../crocsSixteen.heic';
+import crocsSeventeen from '../crocsSeventeen.heic';
+import crocsEighteen from '../crocsEighteen.heic';
+
+
 
 
 function Home() {
+
+const slideShow = [crocsOne,
+   crocsTwo,
+   crocsThree,
+   crocsFour, 
+   crocsFive, 
+   crocsSix, 
+   crocsSeven, 
+   crocsEight, 
+   crocsNine, 
+   crocsTen,
+   crocsEleven,
+   crocsTwelve,
+   crocsThirteen,
+   crocsFourteen,
+   crocsFifteen,
+   crocsSixteen,
+   crocsSeventeen,
+   crocsEighteen]
+let currentNumber = 0;
+let currentCroc = slideShow[currentNumber];
+
+
+setInterval(() => {
+  if(currentNumber === slideShow.length - 1){
+    currentNumber = 0;
+  } else{
+    currentNumber++;
+  }
+}, 2000)
+
+
   return (
     <React.Fragment>
 <header className="mainHeader">
@@ -30,6 +82,10 @@ function Home() {
   <source src="/output_video.mp4" type="video/mp4"/>
   Your browser does not support the video tag.projects/designherCustomKreations/designhercustomkreations/public/VID_158480824_122841_103.mp4
 </video>
+
+<section className='slideShowSection'>
+<img src={slideShow[currentNumber]} alt="pic of crcocs"></img>
+</section>
 
 <section className='categoriesSection'>
 <h1 className='categoriesHeader'>Categories</h1>

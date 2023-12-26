@@ -100,6 +100,12 @@
     border: solid 2px black;
 }
 
+.slideShowSection{
+    width: 100vw;
+    height: 50vh;
+    background-color: white;
+}
+
 .categoriesSection{
     background: linear-gradient(to right, #FF0000, #CC0000, #990000, #660000);
     height: 120vh;
