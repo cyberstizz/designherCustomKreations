@@ -1,5 +1,8 @@
 import './Home.css';
 import React from 'react';
+import { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookSquare, faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons';
 import crocsOne from '../crocsOne.webp';
 import crocsTwo from '../crocsTwo.webp';
 import crocsThree from '../crocsThree.mp4';
@@ -41,18 +44,32 @@ const slideShow = [crocsOne,
    crocsFifteen,
    crocsSixteen,
    crocsSeventeen,
-   crocsEighteen]
-let currentNumber = 0;
-let currentCroc = slideShow[currentNumber];
+   crocsEighteen
+  ]
+
+  const iconStyle = {
+    fontSize: '120px', // Set the desired font size for the icon
+    color: '#FF0000', // Set the desired color for the icon
+    height: '70px', // Set the height (adjust as needed)
+    width: '70px', // Set the width (adjust as needed)
+    display: 'inline-flex', // Ensure icons align properly
+    alignItems: 'center', // Align content vertically
+    justifyContent: 'center', // Align content horizontally
+  };
 
 
-setInterval(() => {
-  if(currentNumber === slideShow.length - 1){
-    currentNumber = 0;
-  } else{
-    currentNumber++;
-  }
-}, 2000)
+  const [currentNumber, setCurrentNumber] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentNumber((prevNumber) =>
+        prevNumber === slideShow.length - 1 ? 0 : prevNumber + 1
+      );
+    }, 2000);
+
+    return () => clearInterval(intervalId);
+  }, [slideShow.length]);
+
 
 
   return (
@@ -84,7 +101,21 @@ setInterval(() => {
 </video>
 
 <section className='slideShowSection'>
-<img src={slideShow[currentNumber]} alt="pic of crcocs"></img>
+  <h1 className='slideShowText'>As seen on </h1>
+
+  <a className='customIcon' href="https://www.facebook.com/yourPage" target="_blank" rel="noopener noreferrer" style={iconStyle}>
+        <FontAwesomeIcon icon={faFacebookSquare} /> {/* Facebook Icon */}
+      </a>
+
+      <a className='customIcon' href="https://www.instagram.com/yourAccount" target="_blank" rel="noopener noreferrer" style={iconStyle}>
+        <FontAwesomeIcon icon={faInstagram} /> {/* Instagram Icon */}
+      </a>
+
+      <a className='customIcon' href="https://www.tiktok.com/@yourUsername" target="_blank" rel="noopener noreferrer" style={iconStyle}>
+        <FontAwesomeIcon icon={faTiktok} /> {/* TikTok Icon */}
+      </a>
+
+<img className='theSlideShow' src={slideShow[currentNumber]} alt="pic of crcocs"></img>
 </section>
 
 <section className='categoriesSection'>

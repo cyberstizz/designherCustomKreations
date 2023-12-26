@@ -101,9 +101,33 @@
 }
 
 .slideShowSection{
-    width: 100vw;
-    height: 50vh;
+    width: 900vw;
+    height: 80vh;
     background-color: white;
+    overflow: hidden;
+}
+
+.slideShowText{
+    color: #FF0000;
+    align-self: center;
+    font-size: 40px;
+    margin-left: 20vw;
+}
+
+.customIcon{
+    margin-left: 10vw;
+    color: #FF0000;
+    font-size: 70px; /* Set the desired font size */
+    height: 40px;
+    width: 20vw;
+}
+
+.theSlideShow{
+    object-fit: contain;
+    height: fit-content;
+    width: 90%;
+    margin-left: 5vw;
+    border-radius: 25px;
 }
 
 .categoriesSection{
