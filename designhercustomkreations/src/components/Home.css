@@ -31,6 +31,7 @@
     height: 140px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .searchBar{
@@ -40,6 +41,7 @@
     background-color: #D9D9D9;
     margin-left: 2vw;
     margin-top: 1vh;
+    overflow: hidden;
 }
 
 .navigationBar{
@@ -52,6 +54,7 @@
     margin: 0 auto;
     margin-top: 10%;
     align-content: flex-start;
+    overflow: hidden;
 }
 
 .navigationBarTwo{
@@ -64,6 +67,7 @@
     margin-left: 10px;
     color: rgb(230, 230, 230);
     align-content: flex-start;
+    overflow: hidden;
 }
 
 .navUlTag{
