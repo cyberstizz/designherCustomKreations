@@ -12,14 +12,12 @@ import crocsSeven from '../crocsSeven.webp';
 import crocsEight from '../crocsEight.webp';
 import crocsNine from '../crocsNine.webp';
 import crocsTen from '../crocsTen.webp';
-import crocsEleven from '../crocsEleven.webp';
 import crocsTwelve from '../crocsTwelve.webp';
 import crocsThirteen from '../crocsThirteen.heic';
 import crocsFourteen from '../crocsFourteen.heic';
 import crocsFifteen from '../crocsFifteen.heic';
 import crocsSixteen from '../crocsSixteen.heic';
 import crocsSeventeen from '../crocsSeventeen.heic';
-import crocsEighteen from '../crocsEighteen.heic';
 
 
 
@@ -35,20 +33,18 @@ const slideShow = [crocsOne,
    crocsEight, 
    crocsNine, 
    crocsTen,
-   crocsEleven,
    crocsTwelve,
    crocsThirteen,
    crocsFourteen,
    crocsFifteen,
    crocsSixteen,
    crocsSeventeen,
-   crocsEighteen
   ]
 
   const iconStyle = {
     fontSize: '360px', // Set the desired font size for the icon
     color: '#FF0000', // Set the desired color for the icon
-    height: '20%', // Set the height (adjust as needed)
+    height: '20vh', // Set the height (adjust as needed)
     width: '25%',
     display: 'inline-flex', // Ensure icons align properly
     alignItems: 'center', // Align content vertically
