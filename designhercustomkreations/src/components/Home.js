@@ -129,10 +129,32 @@ const slideShow = [crocsOne,
 </section>
 
 
+
+<section className='videosSection'>
+<h1 className='videosHeader'>Videos</h1>
+
+
+<video className="homeVideo" width="95%" height="50%" loop="true" autoPlay muted>
+  <source src="/newVideoThree.mp4" type="video/mp4"/>
+  Your browser does not support the video tag
+</video>
+
+<video className="homeVideo" width="95%" height="50%" loop="true" controls>
+  <source src="/newVideoTwo.mp4" type="video/mp4"/>
+  Your browser does not support the video tag
+</video>
+
+<video className="homeVideo" width="95%" height="50%" loop="true" controls>
+  <source src="/newVideoOne.mp4" type="video/mp4"/>
+  Your browser does not support the video tag
+</video>
+
+</section>
+
 <section className='aboutSection'>
 <h1 className='aboutHeader'>About</h1>
 <p className='aboutParagraph'>
-DesignHerInc Custom Kreations, born from the visionary mind of Dianna Beaty in 2022, embodies the fusion of creativity and fabric, springing from a humble abode in Queens, New York. 
+DesignHerInc Custom Kreations, born from the visionary mind of Dianna Beaty in 2022, embodies the fusion of creativity and fabric. 
 <br />
 <br />
 
@@ -147,9 +169,6 @@ Dianna, an artistic virtuoso, wielded her innate flair for clothing decoration, 
 <br />
 <br />
 
-
-
-Her initial showcases at college booths garnered immense fascination, swiftly transforming into a daily influx of orders.
 
 Specializing in bespoke designs for Women, children, and Men, DesignHerInc has ignited a sartorial revolution. 
 <br />
@@ -175,26 +194,6 @@ This excerpt aims to capture the essence of DesignHerInc, portraying its evoluti
 </p>
 </section>
 
-<section className='videosSection'>
-<h1 className='videosHeader'>Videos</h1>
-
-
-<video className="homeVideo" width="95%" height="50%" loop="true" autoPlay muted>
-  <source src="/newVideoThree.mp4" type="video/mp4"/>
-  Your browser does not support the video tag
-</video>
-
-<video className="homeVideo" width="95%" height="50%" loop="true" controls>
-  <source src="/newVideoTwo.mp4" type="video/mp4"/>
-  Your browser does not support the video tag
-</video>
-
-<video className="homeVideo" width="95%" height="50%" loop="true" controls>
-  <source src="/newVideoOne.mp4" type="video/mp4"/>
-  Your browser does not support the video tag
-</video>
-
-</section>
 
 
     
